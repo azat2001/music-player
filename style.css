@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  .player {
+    margin: 50px auto;
+    max-width: 400px;
+  }
+  
+  audio {
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #fff;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+  }
