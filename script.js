@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             fetch('https://api.github.com/repos/azat2001/music-player/contents/music', {
                 method: 'POST',
                 headers: {
-                    'Authorization': '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'
+                    'Authorization': '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'
                 },
                 body: formData
             })
