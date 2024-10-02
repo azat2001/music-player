@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Музыкальный плеер</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Музыкальный плеер</title>
 </head>
 <body>
-  <h1>Музыкальный плеер</h1>
-  <div class="player">
-    <audio controls>
-      <source src="" id="audioSource">
-    </audio>
-    <ul id="playlist"></ul>
-  </div>
+    <h1>Музыкальный плеер</h1>
+    <input type="file" id="fileUpload" multiple accept=".mp3">
+    <button id="uploadButton">Загрузить в фонотеку</button>
+    
 
-  <script src="script.js"></script>
+
+    <div id="musicLibrary">
+        <!-- Здесь будут отображаться треки из фонотеки -->
+    </div>
+    <audio id="audioPlayer" controls></audio>
+    <script src="script.js"></script>
 </body>
 </html>
