@@ -2,46 +2,52 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
-}
-
-.player {
-    max-width: 400px;
-    margin: 50px auto;
+  }
+  
+  .player {
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
     color: #333;
-}
-
-#uploadInput {
+  }
+  
+  #fileUpload {
     display: none;
-}
-
-#uploadButton, #syncButton {
-    margin-top: 10px;
+  }
+  
+  #uploadButton, #syncButton {
     padding: 10px 20px;
-    background-color: #007BFF;
-    color: #fff;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-#audioPlayer {
-    width: 100%;
-    margin-top: 20px;
-}
-
-#playlist {
+  }
+  
+  #uploadButton:hover, #syncButton:hover {
+    background-color: #45a049;
+  }
+  
+  .playlist {
     list-style: none;
     padding: 0;
-    margin-top: 20px;
-}
-
-#playlist li {
-    margin-bottom: 5px;
-}
+  }
+  
+  .playlist li {
+    padding: 10px;
+    background-color: #eee;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .playlist li:hover {
+    background-color: #ddd;
+  }

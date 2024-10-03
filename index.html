@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Музыкальный плеер</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Мой Музыкальный Плеер</title>
 </head>
 <body>
-    <div class="player">
-        <h1>Музыкальный плеер</h1>
-        <input type="file" id="uploadInput" accept=".mp3">
-        <button id="uploadButton">Загрузить на GitHub</button>
-        <button id="syncButton">Синхронизировать с GitHub</button>
-        <audio id="audioPlayer" controls></audio>
-        <ul id="playlist"></ul>
-    </div>
+  <div class="player">
+    <h1>Музыкальный Плеер</h1>
+    <input type="file" id="fileUpload" accept=".mp3" multiple>
+    <button id="uploadButton">Загрузить в Фонотеку</button>
+    <button id="syncButton">Синхронизировать с GitHub</button>
+    <div class="playlist"></div>
+    <audio controls id="audioPlayer"></audio>
+  </div>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
