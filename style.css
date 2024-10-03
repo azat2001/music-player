@@ -1,13 +1,49 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     text-align: center;
-}
-
-#musicLibrary {
-    margin-top: 20px;
-}
-
-#musicLibrary audio {
-    display: block;
-    margin: 10px auto;
-}
+  }
+  
+  .player {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #fileUpload {
+    display: none;
+  }
+  
+  #uploadButton, #syncButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #audioPlayer {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  #playlist {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #playlist li {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
